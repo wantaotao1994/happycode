@@ -10,7 +10,7 @@ var _selectDic = [
 ];
 
 function buildFile(fieldValue) {
-    var fileHead = "public Class1 \n { \n";
+    var fileHead = "public class Class1 \n { \n";
     var fileFieldTemlete = "public [type] [fieldName] {get;set;}  \n \n ";
     var fileNoteTemlete = "///[note]  \n";
     for (var i = 0; i < fieldValue.length; i++) {

@@ -32,3 +32,5 @@ _ReSharper*/
 packages/
 .crx
 .pem
+/src.crx
+/src.pem

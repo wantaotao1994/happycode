@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Code</title>
+    <script src="jquery.min.js"></script>
+</head>
+<body style="width:300px;background-color:white;height:100px;padding-bottom:1px;">
+
+    <textarea  id="option" style="height: 300px;width: 600px;" type="text">
+
+    </textarea>
+
+
+    <div id="template-list">
+
+
+    </div>
+  
+  
+    <button id="save">保存</button>
+
+    <script id="textarea-tmp" type="text/html">
+        {{each list as value}}
+             <textarea  class="temlate-item" key="{{value.key}}"   style="height: 300px;width: 600px;" type="text">{{value.value}}</textarea>
+        {{/each}}
+    </script>
+
+    <script src="template-web.js"></script>
+    <script src="options.js"></script>
+</body>
+
+
+
+</html>

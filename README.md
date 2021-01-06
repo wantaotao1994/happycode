@@ -10,7 +10,8 @@ Genarate  code  from  web table
   3. 开始配置
   
 # 1.基础配置
-     插件配置页 第一个框输入以下 内容 点击保存 刷新页面
+
+  插件配置页 第一个框输入以下 内容 点击保存 刷新页面
      
       {
       "templatesTypes": ["csharp", "js", "swift", "androidReq", "androidRes"],
@@ -34,7 +35,7 @@ Genarate  code  from  web table
       }
     }
     
-  2. 在新增的框中编写上述templatesTypes按顺序的art模板，参考我们项目组配置如下：
+2. 在新增的框中编写上述templatesTypes按顺序的art模板，参考我们项目组配置如下：
   
    0.（csharp）
     
@@ -115,5 +116,9 @@ Genarate  code  from  web table
         {{/each}}
         }
    
-        
+   
+   
+   
+# licence 
+  MIT
         

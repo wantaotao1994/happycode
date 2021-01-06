@@ -11,6 +11,7 @@ Genarate  code  from  web table
   
 # 1.基础配置
      插件配置页 第一个框输入以下 内容 点击保存 刷新页面
+     
       {
       "templatesTypes": ["csharp", "js", "swift", "androidReq", "androidRes"],
       "columnType": ["comment", "type", "field"],
